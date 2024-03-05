@@ -1,3 +1,4 @@
+export const MAX_RATING_LIMIT = 5;
 export const PERSONAL_DATA = {
     EMPLOYEE: [
         {
@@ -49,7 +50,7 @@ export const PERSONAL_DATA = {
         value: [
             {
                 name: 'JavaScript',
-                rating: 6
+                rating: 4
             }
         ]
     },
@@ -58,16 +59,20 @@ export const PERSONAL_DATA = {
             title: 'Backend Skills',
             value: [
                 {
-                    name: 'Node.js',
-                    rating: 5
+                    name: 'Node',
+                    rating: 4
                 },
                 {
-                    name: 'Express.js',
-                    rating: 5
+                    name: 'Express',
+                    rating: 4
                 },
                 {
                     name: 'MySQL',
-                    rating: 5
+                    rating: 4
+                },
+                {
+                    name: 'PostgreSql',
+                    rating: 3
                 }
             ]
         },
@@ -76,11 +81,19 @@ export const PERSONAL_DATA = {
             value: [
                 {
                     name: 'HTML, CSS',
-                    rating: 5
+                    rating: 4
                 },
                 {
                     name: 'React',
-                    rating: 4
+                    rating: 3
+                },
+                {
+                    name: 'Tailwind',
+                    rating: 3
+                },
+                {
+                    name: 'Next.js',
+                    rating: 2
                 }
             ]
         },
@@ -89,11 +102,11 @@ export const PERSONAL_DATA = {
             value: [
                 {
                     name: 'Docker',
-                    rating: 4
+                    rating: 3
                 },
                 {
                     name: 'Git',
-                    rating: 6
+                    rating: 4
                 }
             ]
         }
