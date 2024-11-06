@@ -2,31 +2,70 @@ export const MAX_RATING_LIMIT = 5;
 export const PERSONAL_DATA = {
     EMPLOYEE: [
         {
+            company_name: 'Alwrite',
+            designation: 'Software Developer',
+            role_description: `<p><strong>Projects: </strong> Alwrite is a next-gen platform designed to empower intermediaries and insurance providers with efficient, cost-effective, and knowledge-based solutions across various insurance lines, including property, marine, employee benefits, and liability insurance.</p>
+<p><strong>Technologies Used:</strong> Node.js, Express.js, MongoDB, EC2, Redis, Angular.</p>
+<p><strong>Roles and Responsibilities:</strong></p>
+<ul>
+  <li>Developed scalable backend solutions using the MEAN stack (MongoDB, Express, Angular, Node.js) for high-performance applications.</li>
+  <li>Optimized cloud infrastructure with AWS services like EC2 to enhance deployment.</li>
+  <li>Integrated machine learning models with Gemma by fine-tuning them to improve results.</li>
+</ul>
+`,
+            from_date: 'Jun 2024',
+            to_date: 'Jan 2024'
+        },
+        {
             company_name: 'Bigiota Analytics',
             designation: 'Software Developer',
-            role_description: `I worked on critical projects such as HDFC ERGO's Pehchaan and Claim Status applications. Pehchaan aimed to streamline digital KYC processes, while Claim Status enabled users to efficiently check their claim status and download necessary documents. Leveraging cutting-edge technologies including Node.js, PostgreSQL, Express.js, and AWS services such as EC2 and S3, I played a pivotal role in delivering robust and scalable solutions. 
-        
-        Furthermore, I engineered an automated system utilizing the node-cron/scheduler library to meticulously process daily sales data, adhering to specific criteria, and seamlessly uploaded it to an SFTP server. This initiative streamlined operations and enhanced data management practices, contributing to the overall efficiency of the organization.`,
+            role_description: `<p><strong>Projects:</strong></p>
+<ul>
+  <li><strong>HDFC ERGO's Pehchaan:</strong> Streamlined digital KYC processes.</li>
+  <li><strong>Claim Status Application:</strong> Enables users to efficiently check claim status and download necessary documents.</li>
+</ul>
+<p><strong>Technologies Used:</strong> Node.js, PostgreSQL, Express.js, MongoDB, EC2, S3, node-cron/scheduler library.</p>
+<p><strong>Roles and Responsibilities:</strong></p>
+<ul>
+  <li>Developed robust and scalable solutions for digital KYC and claim status applications.</li>
+  <li>Engineered an automated system for daily sales data processing and uploading to an SFTP server.</li>
+</ul>
+`,
             from_date: 'July 2023',
             to_date: 'Oct 2023'
         },
         {
             company_name: 'Niveus Solutions',
             designation: 'Software Developer',
-            role_description: `I actively contributed to the development of a pioneering project for ICICI, focusing on seamless account openings. This involved crafting a user-friendly platform that empowered customers to effortlessly open various types of bank accounts online, revolutionizing the banking experience. 
-        
-        Employing a robust tech stack consisting of Node.js, MySQL, Express.js, Docker, and incorporating rigorous testing with Jest, Mocha, and Chai, I ensured the reliability and scalability of the platform. This innovative solution not only elevated customer satisfaction but also propelled ICICI's digital transformation efforts to new heights.`,
+            role_description: `<p><strong>Projects:</strong></p>
+<ul>
+  <li><strong>ICICI Account Opening Platform:</strong> Contributed to the development of a user-friendly platform for seamless online account openings for various bank accounts.</li>
+</ul>
+<p><strong>Technologies Used:</strong> Node.js, MySQL, Express.js, Docker, Testing frameworks: Jest, Mocha, Chai.</p>
+<p><strong>Roles and Responsibilities:</strong></p>
+<ul>
+  <li>Contributed to developing a user-friendly platform for seamless online account openings.</li>
+  <li>Collaborated with cross-functional teams to integrate features and enhance ICICI's online banking experience, contributing to the bank's digital transformation and improved customer satisfaction.</li>
+</ul>
+`,
             from_date: 'Jan 2022',
             to_date: 'Feb 2023'
         },
         {
             company_name: 'Exits Group',
             designation: 'Software Developer',
-            role_description: `I played a pivotal role in the development of critical projects, including a comprehensive CRM system and an innovative Food Ordering System.
-  
-        In the realm of CRM, I made significant contributions to crafting a robust system tailored for managing cases, legal matters, and client relationships. Leveraging cutting-edge technologies such as Node.js, MongoDB, and Express JS, we created a dynamic platform that streamlined operations and enhanced organizational efficiency.
-        
-        Additionally, I spearheaded efforts in web scraping utilizing Node.js libraries such as Puppeteer and Cheerio, enabling the extraction of valuable data from various sources. This initiative bolstered data-driven decision-making processes and provided actionable insights, further solidifying our position as industry leaders.`,
+            role_description: `<p><strong>Projects:</strong></p>
+<ul>
+  <li><strong>CRM System:</strong> Managed cases, legal matters, and client relationships.</li>
+  <li><strong>Food Ordering System:</strong> Innovative platform for food ordering.</li>
+</ul>
+<p><strong>Technologies Used:</strong> Node.js, MongoDB, Express.js, Web scraping libraries: Puppeteer, Cheerio.</p>
+<p><strong>Roles and Responsibilities:</strong></p>
+<ul>
+  <li>Developed a comprehensive CRM system to streamline case management and strengthen client relationships.</li>
+  <li>Spearheaded the development of a dynamic food ordering platform and implemented web scraping solutions to extract valuable data from various sources.</li>
+</ul>
+`,
             from_date: 'April 2021',
             to_date: 'Jan 2022'
         }
@@ -94,6 +133,10 @@ export const PERSONAL_DATA = {
                 {
                     name: 'Next.js',
                     rating: 2
+                },
+                {
+                    name: 'Angular',
+                    rating: 1
                 }
             ]
         },
@@ -102,6 +145,10 @@ export const PERSONAL_DATA = {
             value: [
                 {
                     name: 'Docker',
+                    rating: 3
+                },
+                {
+                    name: 'Jenkins',
                     rating: 3
                 },
                 {
