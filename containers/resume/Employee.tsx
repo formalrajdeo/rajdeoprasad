@@ -23,9 +23,10 @@ const Employee = () => {
                                 <span className="text-blue-700">{emp.from_date} - {emp.to_date}</span>
                             </div>
                         </div>
-                        <p className="text-xs">
+                        {/* <p className="text-xs">
                             {emp.role_description}
-                        </p>
+                        </p> */}
+                        <p className="text-xs" dangerouslySetInnerHTML={{ __html: emp.role_description }} />
                     </div>
                 )
             })}
