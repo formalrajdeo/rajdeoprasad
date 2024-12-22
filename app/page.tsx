@@ -17,7 +17,7 @@ export default function Home() {
               Rajdeo Prasad
             </p>
             <p className="text-slate-500 font-medium text-sm">
-              A dedicated developer with an unwavering commitment to self-betterment. Possessing formidable problem-solving prowess, I infuse the team with vigor, resilience, optimism, and a profound respect for cultural values.
+              Highly skilled and results-oriented Software Developer with over 3 years of experience in web development, backend solutions, and cloud infrastructure. Expertise in building scalable, high-performance applications using technologies such as JavaScript, Node.js, React, MongoDB, and AWS. Proficient in developing innovative software solutions across various industries, including e-commerce, insurance, and banking. Seeking new opportunities to leverage technical expertise in full-stack development and cloud architecture.
             </p>
           </div>
           <div className="">
