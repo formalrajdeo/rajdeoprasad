@@ -8,8 +8,7 @@ export const PERSONAL_DATA = {
 <p><strong>Technologies Used:</strong> Node.js, Express.js, MongoDB, EC2, Redis, Angular.</p>
 <p><strong>Roles and Responsibilities:</strong></p>
 <ul>
-  <li>Developed scalable backend solutions using the MEAN stack (MongoDB, Express, Angular, Node.js) for high-performance applications.</li>
-  <li>Optimized cloud infrastructure with AWS services like EC2 to enhance deployment.</li>
+  <li>Developed solutions using the MEAN stack (MongoDB, Express, Angular, Node.js) for high-performance applications.</li>
   <li>Integrated machine learning models with Gemma by fine-tuning them to improve results.</li>
 </ul>
 `,
