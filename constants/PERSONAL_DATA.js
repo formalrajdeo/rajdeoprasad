@@ -13,7 +13,7 @@ export const PERSONAL_DATA = {
 </ul>
 `,
             from_date: 'Jun 2024',
-            to_date: 'Jan 2025'
+            to_date: 'Feb 2025'
         },
         {
             company_name: 'Bigiota Analytics',

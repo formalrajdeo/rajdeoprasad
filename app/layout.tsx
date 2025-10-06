@@ -20,15 +20,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex justify-center items-center flex-col py-12">
+        <div className="flex justify-center items-center flex-col pt-12">
           <div className="w-11/12">
             <Header />
             <Navigation />
-            <main className="flex justify-between items-start max-sm:flex-col">
+            <main className="flex justify-between items-start max-sm:flex-col min-h-screen">
               {children}
             </main>
           </div>
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </body>
     </html>
